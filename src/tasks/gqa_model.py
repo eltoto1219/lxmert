@@ -8,8 +8,6 @@ from lxrt.entry import LXRTEncoder
 from lxrt.modeling import BertLayerNorm, GeLU
 
 # Max length including <bos> and <eos>
-MAX_GQA_LENGTH = 20
-
 
 class GQAModel(nn.Module):
     def __init__(self, num_answers):

@@ -13,7 +13,7 @@ from utils import load_obj_tsv
 # Load part of the dataset for fast checking.
 # Notice that here is the number of images instead of the number of data,
 # which means all related data to the images would be used.
-TINY_IMG_NUM = 512
+TINY_IMG_NUM = 10
 FAST_IMG_NUM = 5000
 
 
